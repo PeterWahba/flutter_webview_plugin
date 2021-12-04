@@ -29,4 +29,7 @@
         <activity android:name="com.flutter_webview_plugin.WebviewActivity"
                   android:parentActivityName=".MainActivity"/>
     </application>
+    <meta-data
+    android:name="flutterEmbedding"
+    android:value="2" />
 </manifest>
